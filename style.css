@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.keys
+{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+.key
+{
+    cursor: pointer;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: all 0.07s;
+}
+.playing
+{
+    transform: scale(1.5);
+    border: 2px solid black;
+    box-shadow: 0 0 10px #ffc600;
+}
